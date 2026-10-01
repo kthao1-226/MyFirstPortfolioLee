@@ -1,0 +1,69 @@
+/* CSS by Kendra Lee */
+/* Color Palette 
+purple = #6E4359
+light brown = #59462E
+beige = #F2D4AE
+tan = #BF9E80
+pink = #D98282
+*/
+
+/*GLOBAL (base) MOBILE FIRST */
+
+body {
+background-color: tan;
+letter-spacing: 1px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: light brown;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+ 
+nav a {
+    background-color: #59462E;
+    color: beige;
+    text-decoration: none;
+    padding: 1rem 2rem;
+
+}
+
+nav a:hover {
+    background-color: #6E4359;
+
+}
+
+.card-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
+
+/*MEDIA QUERY */
+@media screen and(min-width: 600px) {
+}
