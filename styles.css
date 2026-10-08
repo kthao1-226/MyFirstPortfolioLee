@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-    background-color: light brown;
+    background-color: #59462E;
     padding: 1rem;
 }
 
@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     object-fit: contain;
     object-position: center;
 }
@@ -65,5 +65,3 @@ img {
 
 
 /*MEDIA QUERY */
-@media screen and(min-width: 600px) {
-}
