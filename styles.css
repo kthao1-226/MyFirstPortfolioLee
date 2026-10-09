@@ -1,10 +1,11 @@
 /* CSS by Kendra Lee */
 /* Color Palette 
 purple = #6E4359
+dark purple = #4D2E3E
 light brown = #59462E
+dark brown = #3E3120
 beige = #F2D4AE
 tan = #BF9E80
-pink = #D98282
 */
 
 /*GLOBAL (base) MOBILE FIRST */
@@ -12,6 +13,7 @@ pink = #D98282
 body {
 background-color: tan;
 letter-spacing: 1px;
+min-width:770px;
 }
 
 header {
@@ -49,19 +51,153 @@ nav a:hover {
 
 }
 
-.card-row {
+h1 {
+    color: #3E3120;
+    text-decoration: #3E3120 underline;
+}
+
+h2 {
+    color: #3E3120;
+}
+
+h3 {
+    color: #3E3120;
+}
+
+p {
+    color: #4D2E3E;
+}
+
+.contact-info ul {
+    color: #4D2E3E;
+}
+
+.contact-info a {
+    color: #4D2E3E;
+}
+
+
+/*Images*/
+.unsplashK {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 50%;
+}
+
+.resume-study {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.resume-laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+/*End of Images*/
+
+/*Paragraph*/
+.welcome {
+    margin:2rem;
+    font-size: 14pt;
+}
+
+.story {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
+    margin: 2rem;
+    font-size: 14pt;
 }
 
-img {
-    width: 50%;
-    object-fit: contain;
-    object-position: center;
+.resumecontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: 2rem;
+    font-size: 14pt;
+    padding: 4rem 0;
 }
 
+.resumecontent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: 2rem;
+    font-size: 14pt;
+    padding: 4rem 0;
+}
 
-
+.contact-info ul {
+    gap: 10rem;
+    font-size: 14pt;
+    list-style-type: none;
+    justify-content: center;
+    display:flex;
+    padding: 1rem;
+}
+/*End of Paragraph*/
+/*End of GLOBAL (base) */
 
 /*MEDIA QUERY */
+@media (max-width: 769px) {
+    h1 {
+        color: #4D2E3E;
+        text-decoration: #4D2E3E underline;
+    }
+
+    h2 {
+        color: #4D2E3E;
+    }
+
+    h3 {
+        color: #4D2E3E;
+    }
+    p {
+        color: #3E3120;
+    }
+    .contact-info ul {
+    color: #3E3120;
+    }
+
+    .contact-info a {
+    color: #3E3120;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        padding: .5rem;
+    }
+
+    nav a {
+        padding: 1rem 20rem;
+    }
+
+
+}
