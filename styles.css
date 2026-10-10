@@ -68,6 +68,34 @@ p {
     color: #4D2E3E;
 }
 
+.projects1 ul {
+    list-style-type: none;
+}
+
+.projects1 a {
+    color: #4D2E3E;
+}
+.projects2 ul {
+    list-style-type: none;
+}
+
+.projects2 a {
+    color: #4D2E3E;
+}
+
+.resumecontent2 a {
+    color: #4D2E3E;
+}
+
+.contact-info ul {
+    gap: 10rem;
+    font-size: 14pt;
+    list-style-type: none;
+    justify-content: center;
+    display:flex;
+    padding: 1rem;
+}
+
 .contact-info ul {
     color: #4D2E3E;
 }
@@ -132,6 +160,13 @@ p {
     font-size: 14pt;
 }
 
+.projectsinfo, .projects1, .projects2 {
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 14pt;
+    
+}
+
 .resumecontent {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -150,14 +185,6 @@ p {
     padding: 4rem 0;
 }
 
-.contact-info ul {
-    gap: 10rem;
-    font-size: 14pt;
-    list-style-type: none;
-    justify-content: center;
-    display:flex;
-    padding: 1rem;
-}
 /*End of Paragraph*/
 /*End of GLOBAL (base) */
 
@@ -198,6 +225,4 @@ p {
     nav a {
         padding: 1rem 20rem;
     }
-
-
 }
