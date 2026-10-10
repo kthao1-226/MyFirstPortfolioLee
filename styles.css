@@ -121,6 +121,14 @@ p {
     width: 50%;
 }
 
+.projectimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    width: 50%;
+}
+
 .resume-study {
     display: block;
     margin-left: auto;
@@ -162,9 +170,7 @@ p {
 
 .projectsinfo, .projects1, .projects2 {
     margin: 2rem;
-    margin-bottom: 2rem;
     font-size: 14pt;
-    
 }
 
 .resumecontent {
